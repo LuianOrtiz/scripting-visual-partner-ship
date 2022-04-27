@@ -1,0 +1,14 @@
+{
+  "name": "refactoring",
+  "version": "1.0.0",
+  "description": "Refactorización de un proyecto de legado",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ES"
+  ],
+  "author": "LuianOrtiz",
+  "license": "ISC"
+}
