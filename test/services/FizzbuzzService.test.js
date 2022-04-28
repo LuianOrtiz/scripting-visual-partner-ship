@@ -4,6 +4,7 @@ describe(`Test FizzbuzzService`, () => {
 
     test(`1. Explorer trick equals to a number`, () => {
         const explorer = {name: "Explorer1", score: 1}
+
         const fbSerive = FizzbuzzService.applyValidationInExplorer(explorer)
 
         expect(fbSerive.trick).toBe(1)
@@ -11,6 +12,7 @@ describe(`Test FizzbuzzService`, () => {
 
     test(`2. Explorer trick equals to "Fizz"`, () => {
         const explorer = {name: "Explorer3", score: 3}
+
         const fbSerive = FizzbuzzService.applyValidationInExplorer(explorer)
 
         expect(fbSerive.trick).toBe("FIZZ")
