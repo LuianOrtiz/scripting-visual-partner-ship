@@ -4,14 +4,17 @@
   "description": "Refactorización de un proyecto de legado",
   "main": "index.js",
   "scripts": {
-    "test": "set NODE_OPTIONS=--experimental-vm-modules && jest"
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest",
+    "linter": "eslint .",
+    "linter-fix": "eslint . --fix"
   },
   "keywords": [
     "ES"
   ],
   "author": "LuianOrtiz",
   "license": "ISC",
-  "dependencies": {
-    "jest": "^28.0.1"
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "jest": "^28.0.2"
   }
 }
