@@ -16,7 +16,7 @@ describe("Test ExplorerController", () => {
         expect(explorersUsername[0]).toBe("ajolonauta1");
     });
 
-    test(`3. get explorer's amount by mission`, () => {
+    test("3. get explorer's amount by mission", () => {
         const mission = "node";
         const explorerAmount = ExplorerController.getExplorersAmountByMission(mission);
     
